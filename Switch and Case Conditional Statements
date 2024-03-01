@@ -1,0 +1,18 @@
+//Switch and Case Conditional Statements
+void main(){
+  var grade = 'F';
+  //string and int
+  switch(grade){
+    case 'A':
+    print('Excellent you got A grade');
+    break;
+    case 'B':
+    print('Good Grade');
+    case 'C':
+    print('not good you should work hard more');
+    break;
+    default:
+    print('Invalid grade');
+    break;
+  }
+}
