@@ -1,0 +1,10 @@
+void main() {
+  //IF and Else Statements
+  var salary = 15000;
+
+  if(salary > 20000){
+    print("You got promotion. Congratultions!");
+  }else{
+    print("You need to work hard!");
+  }
+}
