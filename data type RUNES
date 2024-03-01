@@ -1,0 +1,11 @@
+void main() {
+//example1
+  String text = 'Dart';
+  print(text.codeUnitAt(0)); 
+
+ //example2
+  String text = 'Hello Dart!';
+  Runes myRunes = Runes.fromString(text);
+  print(String.fromCharCodes(myRunes)); // Output: Hello Dart!
+
+}
