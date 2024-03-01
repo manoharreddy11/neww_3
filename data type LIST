@@ -1,0 +1,25 @@
+void main() {
+  //example1
+  List<int> numbers = [1, 2, 3, 4, 5];
+  print(numbers);
+
+  List<String> fruits = ['Apple', 'Banana', 'Orange'];
+
+  //example2
+  // Adding elements
+  fruits.add('Grapes');
+  fruits.addAll(['Mango', 'Pineapple']);
+  
+  print(fruits);
+
+  //example3
+  List<int> scores = [90, 85, 88, 92, 78];
+  
+  // Removing an element
+  scores.remove(88);
+  
+  // Removing at a specific index
+  scores.removeAt(2);
+  
+  print(scores);
+}
