@@ -1,3 +1,4 @@
+//example1
 enum Day {
   Monday,
   Tuesday,
@@ -7,3 +8,34 @@ enum Day {
   Saturday,
   Sunday
 }
+
+void main() {
+  print(Day.Monday); 
+  print(Day.Friday); 
+}
+
+//example2
+enum Status {
+  success,
+  error,
+  inProgress
+}
+
+void printStatus(Status status) {
+  switch (status) {
+    case Status.success:
+      print('Operation was successful!');
+      break;
+    case Status.error:
+      print('An error occurred.');
+      break;
+    case Status.inProgress:
+      print('Operation is in progress.');
+      break;
+  }
+}
+
+void main() {
+  printStatus(Status.success); 
+}
+
