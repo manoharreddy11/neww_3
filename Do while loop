@@ -1,0 +1,18 @@
+void main(){
+  var j = 0;
+  do{
+    print('Hello');
+    j++;
+  }
+  while(j<10);
+
+
+  var count = 1;
+  do{
+    if(count%2==0){
+      print(count);
+    }
+    count++;
+  }
+   while (count<=10);
+}
