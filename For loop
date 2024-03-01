@@ -1,0 +1,14 @@
+//for loop
+void main(){
+for (var k = 1; k<=10; k++){
+  if(k%2==0){
+    print(k);
+  }
+}
+
+//for in loop
+List languages = ["C","JAVA","C ++","JS","PYTHON"];
+for(var item in languages){
+  print(item);
+}
+}
