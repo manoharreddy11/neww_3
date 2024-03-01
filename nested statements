@@ -1,0 +1,15 @@
+void main(){
+  //Nested if else statement
+  bool islogin = true;
+  bool isOnline = false;
+
+  if (islogin){
+    if(isOnline){
+      print('The user is loggedin and Online');
+    }else if(islogin){
+      print('The user is loggedin');
+    }
+  }else{
+    print('The user is unavailable');
+  }
+}
