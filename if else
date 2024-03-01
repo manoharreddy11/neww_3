@@ -1,0 +1,12 @@
+void main(){
+  double percentage = 25;
+  if (percentage>=70){
+    print("good keep it up");
+  }else if(percentage>40&&percentage<70){
+    print("Average you need to improve");
+  }else if(percentage>40&&percentage<70){
+    print("poor you need to do hard work");
+  }else{
+    print("very poor you need to do hard work");
+  }
+}
