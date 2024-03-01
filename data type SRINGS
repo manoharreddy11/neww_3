@@ -1,0 +1,18 @@
+void main() {
+//example1
+  String firstName = 'John';
+  String lastName = 'Doe';
+  String fullName = firstName + ' ' + lastName;
+  print('Full Name: $fullName');
+
+//example 2
+ String text = 'Dart is fun!';
+  int length = text.length;
+
+  print('Length of the string: $length');
+//example3
+ String S1 = 'it\'s Okay';
+ String S2 = "it's Okay";
+ Print('$S1 $S2');
+
+}
