@@ -1,0 +1,6 @@
+void main(){
+  var age = 35;
+  var age2 = 25;
+  var results = age>age2;
+  print (results);
+}
