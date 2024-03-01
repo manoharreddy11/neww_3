@@ -1,0 +1,7 @@
+void main(){
+  var A = 10;
+  var B = 20;
+  var c = 20;
+  var res 1 = A>B&&B<C,&&A<C;
+  print(res1);
+}
