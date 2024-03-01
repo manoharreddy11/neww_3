@@ -1,0 +1,6 @@
+main(){
+  var a = 10*9;
+  var c = (90+10-10/100)*10;
+  var b = a-c;
+  print(c);
+}
