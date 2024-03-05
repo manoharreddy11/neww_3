@@ -32,10 +32,5 @@ class Rectangle extends Shape {
     print('Rectangle is drawaing ...');
   }
 
-  // @override
-  // void ihaveImplmentation() {
-  //   print('ihaveImplmentation Rectangle');
-  // }
-
 
 }
