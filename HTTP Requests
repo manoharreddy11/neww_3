@@ -1,0 +1,16 @@
+import 'package:http/http.dart' as http;
+
+void main() async {
+  try {
+    var response = await http.get('https://jsonplaceholder.typicode.com/posts/1');
+
+    if (response.statusCode == 200) {
+      print('Response status: ${response.statusCode}');
+      print('Response body: ${response.body}');
+    } else {
+      print('Request failed with status: ${response.statusCode}');
+    }
+  } catch (e) {
+    print('Error: $e');
+  }
+}
