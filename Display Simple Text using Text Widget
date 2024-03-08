@@ -1,0 +1,47 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Text Widget Sample'),
+        ),
+        body: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              // Simple Text Widget
+              Text(
+                'Hello, Flutter!',
+              ),
+
+              SizedBox(height: 20),
+
+              // Text Widget with Styles
+              Text(
+                'Manohar Reddy',
+                style: TextStyle(
+                  fontSize: 24, // Font size
+                  fontWeight: FontWeight.bold, // Font weight
+                  color: Colors.blue, // Text color
+                  fontStyle: FontStyle.italic, // Text style
+                  letterSpacing: 1.5, // Letter spacing
+                  decoration: TextDecoration.underline, // Underline text
+                  decorationColor: Colors.red, // Underline color
+                  decorationStyle:
+                      TextDecorationStyle.double, // Underline style
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
