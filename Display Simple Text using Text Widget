@@ -16,26 +16,24 @@ class MyApp extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              // Simple Text Widget
               Text(
                 'Hello, Flutter!',
               ),
 
               SizedBox(height: 20),
 
-              // Text Widget with Styles
               Text(
                 'Manohar Reddy',
                 style: TextStyle(
-                  fontSize: 24, // Font size
-                  fontWeight: FontWeight.bold, // Font weight
-                  color: Colors.blue, // Text color
-                  fontStyle: FontStyle.italic, // Text style
-                  letterSpacing: 1.5, // Letter spacing
-                  decoration: TextDecoration.underline, // Underline text
-                  decorationColor: Colors.red, // Underline color
+                  fontSize: 24, 
+                  fontWeight: FontWeight.bold, 
+                  color: Colors.blue, 
+                  fontStyle: FontStyle.italic, 
+                  letterSpacing: 1.5, 
+                  decoration: TextDecoration.underline, 
+                  decorationColor: Colors.red, 
                   decorationStyle:
-                      TextDecorationStyle.double, // Underline style
+                      TextDecorationStyle.double, 
                 ),
               ),
             ],
